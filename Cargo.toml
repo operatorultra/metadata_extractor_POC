@@ -1,0 +1,18 @@
+[package]
+name = "metadata_extractor_standalone"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+ffprobe = "0.3.3"
+kamadak-exif = "0.5.5"
+minidom = "0.15.0"
+pdf = "0.7.2"
+serde_json = "1.0"
+infer = "0.11.0"
+
+# parsers
+# rio_xml = "0.8.0"
+# xmlparser = "0.13.5"
+xml-rs = "0.8.4"
